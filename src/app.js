@@ -6,7 +6,7 @@ export default class MergeTags extends Plugin {
 		console.log('MergeTags was initialized');
 		const editor = this.editor;
 
-		editor.ui.componentFactory.add('insertImage', locale => {
+		editor.ui.componentFactory.add('mergeTags', locale => {
 			const view = new ButtonView(locale);
 
 			view.set({

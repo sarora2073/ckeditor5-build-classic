@@ -11,7 +11,7 @@ export default class MergeTags extends Plugin {
 
 			view.set({
 				label: 'Insert image',
-				icon: '',
+				icon: imageIcon,
 				tooltip: true
 			});
 
